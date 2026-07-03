@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THE EXPEDITION - Visual Storyboard 90s · Woolet Kickstarter</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --gold:#CAA449; --black:#080807; --cream:#EDE7D9;
+    --cool:#7fa8a0; --warm:#d99a3d;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--black);color:var(--cream);font-family:'Barlow',sans-serif;line-height:1.5}
+  .wrap{max-width:1280px;margin:0 auto;padding:48px 32px}
+
+  header{border-bottom:1px solid rgba(202,164,73,.35);padding-bottom:32px;margin-bottom:12px}
+  .kicker{font-size:12px;letter-spacing:.35em;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
+  h1{font-family:'Cormorant Garamond',serif;font-size:56px;font-weight:600;letter-spacing:.02em;color:var(--cream)}
+  h1 span{color:var(--gold)}
+  .sub{margin-top:10px;font-size:15px;color:rgba(237,231,217,.75)}
+  .specs{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+  .chip{border:1px solid rgba(202,164,73,.4);border-radius:999px;padding:5px 14px;font-size:12px;letter-spacing:.06em;color:var(--cream)}
+  .chip b{color:var(--gold);font-weight:600}
+
+  .actbar{display:flex;gap:8px;margin:28px 0 8px}
+  .act{flex:1;padding:10px 16px;border-radius:6px;font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600}
+  .act1{background:linear-gradient(90deg,#22333155,#2e4a4655);border-left:3px solid var(--cool);color:#bfd8d3;flex-basis:44%}
+  .act2{background:linear-gradient(90deg,#4a350f55,#6b48114d);border-left:3px solid var(--warm);color:#eecf95;flex-basis:56%}
+
+  .timeline{display:flex;height:10px;border-radius:5px;overflow:hidden;margin-bottom:40px;border:1px solid #222}
+  .timeline div{height:100%}
+
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:28px}
+  @media(max-width:900px){.grid{grid-template-columns:1fr}}
+
+  .card{background:#111110;border:1px solid #26241f;border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+  .card.coolcard{border-top:3px solid var(--cool)}
+  .card.warmcard{border-top:3px solid var(--warm)}
+  .frame{position:relative;aspect-ratio:16/9;background:#000}
+  .frame img{width:100%;height:100%;object-fit:cover;display:block}
+  .tc{position:absolute;top:10px;left:10px;background:rgba(8,8,7,.82);color:var(--gold);font-size:12px;font-weight:700;letter-spacing:.08em;padding:4px 10px;border-radius:4px;font-variant-numeric:tabular-nums}
+  .shotno{position:absolute;top:10px;right:10px;background:var(--gold);color:var(--black);font-size:12px;font-weight:700;padding:4px 10px;border-radius:4px;letter-spacing:.06em}
+  .ost{position:absolute;left:0;right:0;bottom:0;padding:22px 14px 10px;background:linear-gradient(transparent,rgba(8,8,7,.88));font-family:'Cormorant Garamond',serif;font-size:16px;letter-spacing:.08em;color:var(--cream)}
+  .body{padding:18px 20px 20px;display:flex;flex-direction:column;gap:12px;flex:1}
+  .beat{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:600}
+  .vo{font-family:'Cormorant Garamond',serif;font-size:18px;font-style:italic;color:var(--cream);border-left:2px solid var(--gold);padding-left:14px}
+  .meta{display:grid;grid-template-columns:1fr 1fr;gap:8px 16px;font-size:12.5px;color:rgba(237,231,217,.72)}
+  .meta b{color:rgba(237,231,217,.95);font-weight:600}
+  .flag{margin-top:auto;font-size:11.5px;letter-spacing:.05em;background:#1d1a12;border:1px dashed rgba(202,164,73,.5);color:#d9bd7d;border-radius:5px;padding:7px 10px}
+
+  .endcard .frame{background:var(--black);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px}
+  .frame img.endlogo{width:44%;max-width:260px;height:auto;object-fit:contain;display:block}
+  .endcta{font-size:14px;letter-spacing:.22em;color:var(--cream);text-transform:uppercase}
+  .endprice{font-size:13px;color:var(--gold);letter-spacing:.1em}
+
+  .section{margin:56px 0 24px}
+  .section h2{font-family:'Cormorant Garamond',serif;font-size:30px;color:var(--gold);font-weight:600;margin-bottom:16px}
+  .charrow{display:grid;grid-template-columns:1.2fr 1fr;gap:28px;align-items:start}
+  @media(max-width:900px){.charrow{grid-template-columns:1fr}}
+  .charrow img{width:100%;border-radius:10px;border:1px solid #26241f}
+  .charrow ul{list-style:none;display:flex;flex-direction:column;gap:10px;font-size:14px;color:rgba(237,231,217,.85)}
+  .charrow li::before{content:"- ";color:var(--gold)}
+
+  .notes{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  @media(max-width:900px){.notes{grid-template-columns:1fr}}
+  .note{background:#111110;border:1px solid #26241f;border-radius:10px;padding:18px 20px;font-size:13px;color:rgba(237,231,217,.8)}
+  .note h3{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
+  footer{margin-top:56px;padding-top:24px;border-top:1px solid rgba(202,164,73,.25);font-size:12px;color:rgba(237,231,217,.5);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="kicker">Woolet Kickstarter · Nature-Documentary Parody · Concept B</div>
+  <h1>THE <span>EXPEDITION</span></h1>
+  <p class="sub">Visual storyboard - 11 shots / ~90 s. Narrator: David Attenborough-style AI VO (TopMediai). The joke is always on the mall and the industry, never on the customer.</p>
+  <div class="specs">
+    <span class="chip">Master <b>16:9 · 1920×1080</b></span>
+    <span class="chip">Cutdown <b>9:16 · 1080×1920</b></span>
+    <span class="chip">Runtime <b>~90 s</b></span>
+    <span class="chip">VO <b>~200 words · 125–135 wpm</b></span>
+    <span class="chip">CTA <b>Kickstarter · $114 (−40%)</b></span>
+  </div>
+</header>
+
+<div class="actbar">
+  <div class="act act1">Act 1 · S1–S5 · cool / fluorescent · “the struggle”</div>
+  <div class="act act2">Act 2 · S6–S11 · warm / golden · “discovery · Italy · relief”</div>
+</div>
+<div class="timeline">
+  <div style="width:8.9%;background:#3c5a55"></div><div style="width:8.9%;background:#41625c"></div>
+  <div style="width:8.9%;background:#476a63"></div><div style="width:8.9%;background:#4d726a"></div>
+  <div style="width:8.9%;background:#537a71"></div><div style="width:11.1%;background:#8a6a2a"></div>
+  <div style="width:8.9%;background:#9a7530"></div><div style="width:8.9%;background:#aa8136"></div>
+  <div style="width:8.9%;background:#b98d3d"></div><div style="width:8.9%;background:#c49845"></div>
+  <div style="width:8.9%;background:#CAA449"></div>
+</div>
+
+<div class="grid">
+
+  <!-- SHOT 1 -->
+  <div class="card coolcard">
+    <div class="frame">
+      <img src="img/shot01.jpg" alt="Shot 1">
+      <span class="tc">0:00–0:08</span><span class="shotno">S1</span>
+      <div class="ost">THE BROAD-FACED PROFESSIONAL</div>
+    </div>
+    <div class="body">
+      <div class="beat">Intro - the “specimen” in his habitat</div>
+      <p class="vo">“Here, in the fluorescent wilderness of the shopping mall... we find him. The broad-faced professional. A magnificent specimen.”</p>
+      <div class="meta">
+        <span><b>Camera:</b> push-in from behind a display rack, handheld drift</span>
+        <span><b>Lens:</b> 35mm, shallow depth of field</span>
+        <span><b>Light:</b> cold fluorescent, faint grain</span>
+        <span><b>Audio:</b> mall ambience, fluorescent hum</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SHOT 2 -->
+  <div class="card coolcard">
+    <div class="frame">
+      <img src="img/shot02.jpg" alt="Shot 2">
+      <span class="tc">0:08–0:16</span><span class="shotno">S2</span>
+      <div class="ost">Problem 1: size is a mystery</div>
+    </div>
+    <div class="body">
+      <div class="beat">Problem 1 - frames hide their true width</div>
+      <p class="vo">“The frames guard their true width. He cannot tell how wide they are. So he guesses... and he guesses wrong. Again.”</p>
+      <div class="meta">
+        <span><b>Camera:</b> patient, static observation</span>
+        <span><b>Lens:</b> 50mm</span>
+        <span><b>Action:</b> inspects tiny frames, tries them on - too small</span>
+        <span><b>Grade:</b> cool, desaturated</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SHOT 3 -->
+  <div class="card coolcard">
+    <div class="frame">
+      <img src="img/shot03.jpg" alt="Shot 3">
+      <span class="tc">0:16–0:24</span><span class="shotno">S3</span>
+      <div class="ost">Problem 2: small frames widen a full face</div>
+    </div>
+    <div class="body">
+      <div class="beat">Problem 2 - beard + full face vs. tiny frames</div>
+      <p class="vo">“Note the beard - a clever adaptation, grown to lengthen the face. But the tiny frames undo his work in a single, tragic instant.”</p>
+      <div class="meta">
+        <span><b>Camera:</b> tight close-up, mirror</span>
+        <span><b>Lens:</b> 85mm, shallow focus</span>
+        <span><b>Emotion:</b> quiet resignation</span>
+        <span><b>Grade:</b> soft cool light</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SHOT 4 -->
+  <div class="card coolcard">
+    <div class="frame">
+      <img src="img/shot04.jpg" alt="Shot 4">
+      <span class="tc">0:24–0:32</span><span class="shotno">S4</span>
+      <div class="ost">Problem 3: bridge 16–19 mm · he needs 24</div>
+    </div>
+    <div class="body">
+      <div class="beat">Problem 3 - wide nose, bridge 16–19 vs 24 mm</div>
+      <p class="vo">“And a hidden trap: even a narrow face may carry a wide nose. The mall offers sixteen to nineteen millimetres. He needs twenty-four. It perches. It pinches. It slides.”</p>
+      <div class="meta">
+        <span><b>Camera:</b> extreme macro, clinical</span>
+        <span><b>Detail:</b> pressure marks, bridge sliding down</span>
+        <span><b>Lens:</b> macro</span>
+        <span><b>Grade:</b> cold, clinical</span>
+      </div>
+      <div class="flag">COMPOSITE-friendly - keep the frame simple, leave room for the insert</div>
+    </div>
+  </div>
+
+  <!-- SHOT 5 -->
+  <div class="card coolcard">
+    <div class="frame">
+      <img src="img/shot05.jpg" alt="Shot 5">
+      <span class="tc">0:32–0:40</span><span class="shotno">S5</span>
+      <div class="ost">Problem 4: injection-molded = brittle</div>
+    </div>
+    <div class="body">
+      <div class="beat">Problem 4 - injection-molded plastic snaps</div>
+      <p class="vo">“These frames were not crafted. They were injected - poured, cooled, forgotten. In the wild... they do not survive.”</p>
+      <div class="meta">
+        <span><b>Camera:</b> slow-motion macro</span>
+        <span><b>Action:</b> temple arm snaps, shard drops</span>
+        <span><b>Light:</b> dramatic side light</span>
+        <span><b>SFX:</b> crisp “snap”</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SHOT 6 -->
+  <div class="card warmcard">
+    <div class="frame">
+      <img src="img/shot06.jpg" alt="Shot 6">
+      <span class="tc">0:40–0:50</span><span class="shotno">S6</span>
+      <div class="ost">FITLENS · fits big AND small faces</div>
+    </div>
+    <div class="body">
+      <div class="beat">Discovery - FitLens scan · the warm turn</div>
+      <p class="vo">“But the species has adapted. It has found a tool. FitLens measures any face - the broad, and the narrow alike - in sixty seconds.”</p>
+      <div class="meta">
+        <span><b>Camera:</b> gentle push-in</span>
+        <span><b>Lens:</b> 50mm</span>
+        <span><b>Light:</b> flip cool → golden ON CAMERA</span>
+        <span><b>SFX:</b> soft digital chime + music swell</span>
+      </div>
+      <div class="flag">COMPOSITE - overlay the real FitLens scan UI (mesh/grid) on the clean phone screen in the edit</div>
+    </div>
+  </div>
+
+  <!-- SHOT 7 -->
+  <div class="card warmcard">
+    <div class="frame">
+      <img src="img/shot07.jpg" alt="Shot 7">
+      <span class="tc">0:50–0:58</span><span class="shotno">S7</span>
+      <div class="ost">HAND-FINISHED IN ITALY</div>
+    </div>
+    <div class="body">
+      <div class="beat">Italian hand-craft - Mazzucchelli acetate</div>
+      <p class="vo">“Woolet. Italian Mazzucchelli acetate. Cut and finished by hand. Not injected - crafted.”</p>
+      <div class="meta">
+        <span><b>Camera:</b> macro → medium, workshop</span>
+        <span><b>Light:</b> warm window light</span>
+        <span><b>Detail:</b> craftsman's hands, acetate block</span>
+        <span><b>SFX:</b> light workshop tool sounds</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SHOT 8 -->
+  <div class="card warmcard">
+    <div class="frame">
+      <img src="img/shot08.jpg" alt="Shot 8">
+      <span class="tc">0:58–1:06</span><span class="shotno">S8</span>
+      <div class="ost">WOOLET 007 · 009</div>
+    </div>
+    <div class="body">
+      <div class="beat">The fit - right width + bridge up to 24 mm</div>
+      <p class="vo">“The right width. The right bridge - up to twenty-four millimetres. It fits. Finally.”</p>
+      <div class="meta">
+        <span><b>Camera:</b> medium close-up</span>
+        <span><b>Lens:</b> 85mm</span>
+        <span><b>Emotion:</b> calm satisfaction</span>
+        <span><b>SFX:</b> warm sub-drop</span>
+      </div>
+      <div class="flag">COMPOSITE - match / replace with real Woolet 007 (round) and 009 (square) renders</div>
+    </div>
+  </div>
+
+  <!-- SHOT 9 -->
+  <div class="card warmcard">
+    <div class="frame">
+      <img src="img/shot09.jpg" alt="Shot 9">
+      <span class="tc">1:06–1:14</span><span class="shotno">S9</span>
+      <div class="ost">BESPOKE · ~300 variations</div>
+    </div>
+    <div class="body">
+      <div class="beat">Bespoke - ~300 variations for the outliers</div>
+      <p class="vo">“And for the rarest specimens - a size that does not yet exist - three hundred bespoke variations await.”</p>
+      <div class="meta">
+        <span><b>Camera:</b> gentle dolly across the collection</span>
+        <span><b>Light:</b> museum-style warm spotlights</span>
+        <span><b>Background:</b> dark velvet</span>
+        <span><b>Grade:</b> rich &amp; premium</span>
+      </div>
+      <div class="flag">COMPOSITE - use real frame renders if available</div>
+    </div>
+  </div>
+
+  <!-- SHOT 10 -->
+  <div class="card warmcard">
+    <div class="frame">
+      <img src="img/shot10.jpg" alt="Shot 10">
+      <span class="tc">1:14–1:22</span><span class="shotno">S10</span>
+    </div>
+    <div class="body">
+      <div class="beat">Payoff - seen, measured, fitted</div>
+      <p class="vo">“At last... the broad-faced professional is seen. Measured. Fitted.”</p>
+      <div class="meta">
+        <span><b>Camera:</b> observational follow shot</span>
+        <span><b>Lens:</b> 35mm</span>
+        <span><b>Action:</b> walks away through the blurred mall, slight smile</span>
+        <span><b>Grade:</b> golden warm, music: resolve</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SHOT 11 -->
+  <div class="card warmcard endcard">
+    <div class="frame">
+      <span class="tc">1:22–1:30</span><span class="shotno">S11</span>
+      <img class="endlogo" src="img/wordmark.svg" alt="WOOLET wordmark (brand book)">
+      <div class="endcta">Back on Kickstarter · woolet.co</div>
+      <div class="endprice">FOUNDING PRICE $114 · −40%</div>
+    </div>
+    <div class="body">
+      <div class="beat">Logo + CTA - end card</div>
+      <p class="vo">“Back Woolet on Kickstarter. Founding price - forty percent off.”</p>
+      <div class="meta">
+        <span><b>Logo:</b> official brand-book wordmark (SVG)</span>
+        <span><b>Colors:</b> gold #CAA449 on #080807</span>
+        <span><b>Anim:</b> subtle fade-in</span>
+        <span><b>Hold:</b> CTA for 3+ s</span>
+      </div>
+      <div class="flag">BUILD IN THE EDITOR (motion graphics) - do not generate with AI; use the SVG wordmark for crisp brand type</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- CHARACTER -->
+<div class="section">
+  <h2>Character reference - “the specimen”</h2>
+  <div class="charrow">
+    <img src="img/charsheet.jpg" alt="Character sheet">
+    <ul>
+      <li>Male, ~45, genuinely broad/large face, strong jaw, well-groomed full beard, short hair. Dignified, never a caricature.</li>
+      <li>Wardrobe: navy blazer over a plain grey crew tee - same outfit in every shot.</li>
+      <li>Demeanor: calm, dignified, a little weary - a wildlife subject unaware of the camera.</li>
+      <li>This image = first-frame / reference for every image-to-video generation (Veo 3 / Kling 2.x / Runway Gen-3 / Sora).</li>
+      <li>The board frames serve as keyframes - generate 5–8 s silent clips and cut to the VO.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- PRODUCTION NOTES -->
+<div class="section">
+  <h2>Production notes</h2>
+  <div class="notes">
+    <div class="note">
+      <h3>Music &amp; SFX</h3>
+      Nature-doc bed: light strings + soft woodwinds. Cool/sparse S1–5, warm swell from S6, gentle resolve S10–11. VO always on top, music ducked −12/−14 dB under VO. SFX: fluorescent hum (1–5), snap (5), chime (6), workshop tools (7), sub-drop (8).
+    </div>
+    <div class="note">
+      <h3>Grade - two acts</h3>
+      Act 1 (S1–5): cool, desaturated, greenish fluorescent. Act 2 (S6–11): warm, saturated, golden. The color flip happens on camera in S6 as he raises the phone. Brand accents on graphics only: gold #CAA449 · black #080807 · cream #EDE7D9.
+    </div>
+    <div class="note">
+      <h3>Text &amp; captions</h3>
+      Cormorant Garamond (display) + Barlow (small caps). Problem labels bottom-left like documentary field notes (S2–5); product labels center-lower (S6–9). Burned-in captions for the whole film (silent autoplay). End card holds the CTA 3+ s.
+    </div>
+  </div>
+</div>
+
+<footer>
+  <span>THE EXPEDITION · Woolet Kickstarter · storyboard v1</span>
+  <span>Deliverables: 16:9 master · 9:16 cutdown 30–45 s · 6–10 s loop teaser (S1–3)</span>
+</footer>
+
+</div>
+</body>
+</html>
