@@ -16,15 +16,13 @@ qualification, pitch angle and outreach draft is derived from what's written her
 - Site: `woolet.co` — **live** (verified 2026-07-15)
 - Founder / spokesperson: Marek (marek@jay23.com) <!-- TODO: full name + title + headshot URL for HARO profile -->
 
-> **⚠️ Positioning check (found 2026-07-15, first agent run):** woolet.co/en currently
-> positions the brand as **"Italian Acetate Eyewear Built for Wide Faces"** — one precise
-> **158 mm** size, keyhole bridge, Mazzucchelli acetate, hand-finished in the EU,
-> **Kickstarter coming soon**, socials **@WooletWideFit**. That is a sharper wedge than the
-> generic "bespoke configurator" framing above. Until the founder reconciles the two, the
-> agent leads outreach with the **wide-fit** angle (strongest listicle cluster:
-> "glasses for big heads / wide faces") and keeps bespoke/bio-acetate as secondary angles.
-> Direct wide-fit competitor discovered: **EYESHELLS (eyeshells.com)** — extended-fit
-> specialist, 150–160 mm frame widths. Kraywoods also owns a big-heads guide.
+> **✅ Positioning CONFIRMED by founder (2026-07-15):** primary axis is
+> **"Italian Acetate Eyewear Built for Wide Faces"** — one precise **158 mm** size,
+> keyhole bridge, Mazzucchelli acetate, hand-finished in the EU, **Kickstarter coming
+> soon**, socials **@WooletWideFit**. All outreach leads with the wide-fit angle;
+> bespoke/bio-acetate/sustainability are secondary angles. Edit-ready blurbs per
+> cluster: `blurbs.md`. Direct wide-fit competitor: **EYESHELLS (eyeshells.com)** —
+> extended-fit specialist, 150–160 mm frame widths. Kraywoods owns a big-heads guide.
 
 ## What makes Woolet linkable (pitch angles)
 
