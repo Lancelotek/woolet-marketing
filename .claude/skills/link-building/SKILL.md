@@ -37,14 +37,18 @@ No argument → ask nothing, do `run`.
 - **WebSearch / WebFetch** — all prospecting and page verification. Fetch the actual
   page before qualifying; never qualify from a search snippet.
 - **Bash `curl -sIL`** — HTTP status checks for broken-link work.
-- **Outreach drafts → Make bridge (primary):** call Make MCP `scenarios_run` with
-  `scenarioId: 6576918` ("Woolet — Outreach Draft Bridge") and
-  `data: {to, subject, html}` — creates a **draft** in the `support@woolet.co`
-  mailbox. One call per approved-quality prospect, built from
-  `link-building/templates/outreach-templates.md` + `link-building/blurbs.md`.
-  **Never call any send module/tool.** Fallbacks in order: Gmail MCP `create_draft`
-  (lands in the personal mailbox — flag this in the report), then files in
-  `link-building/outbox/YYYY-MM-DD-<domain>.md`.
+- **Outreach drafts → Make bridge (primary):** two-step queue pattern.
+  1. For each approved-quality prospect, add a record to Make data store
+     **147665** (`woolet-outreach-queue`) via Make MCP `data-store-records_create`
+     with `data: {to, subject, html}` (key = prospect domain).
+  2. After queueing (one or many), call Make MCP `scenarios_run` with
+     `scenarioId: 6576918` ("Woolet — Outreach Draft Bridge") — it converts every
+     queued record into a **draft** in the `support@woolet.co` mailbox and clears
+     the queue. (Do NOT pass run `data` — the scenario reads the queue, not inputs.)
+  Content comes from `link-building/templates/outreach-templates.md` +
+  `link-building/blurbs.md`. **Never call any send module/tool.** Fallbacks in
+  order: Gmail MCP `create_draft` (lands in the personal mailbox — flag this in
+  the report), then files in `link-building/outbox/YYYY-MM-DD-<domain>.md`.
 - **Edit on `tracker/prospects.csv`** — append rows; update `status` /
   `last_action_date` / `follow_ups` when the user reports sends and replies.
 - Optional, only if the user asks: Buffer (announce assets), Airtable (migrate tracker).
