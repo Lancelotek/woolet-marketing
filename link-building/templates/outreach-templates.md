@@ -4,8 +4,9 @@ Rules for every template:
 - Personalize `{{...}}` from the *actual page* — quote their words, name their sections.
 - Subject lines: lowercase-ish, specific, no clickbait, no "quick question".
 - Plain text, 90–140 words body, one ask, one link.
-- Sign-off: Marek, Woolet — bespoke handmade eyewear · woolet.co
-- Drafts only. A human sends.
+- Sign-off: Marek, Woolet — Italian acetate eyewear for wide faces · woolet.co
+- Sender mailbox: `support@woolet.co` (drafts created there via the Make bridge,
+  scenario 6576918). A human reviews and sends — always.
 
 ---
 

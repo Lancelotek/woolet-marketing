@@ -37,9 +37,14 @@ No argument → ask nothing, do `run`.
 - **WebSearch / WebFetch** — all prospecting and page verification. Fetch the actual
   page before qualifying; never qualify from a search snippet.
 - **Bash `curl -sIL`** — HTTP status checks for broken-link work.
-- **Gmail `create_draft`** — one draft per approved-quality prospect, built from
-  `link-building/templates/outreach-templates.md`. **Never call any send tool.** If
-  Gmail is unavailable, write drafts to `link-building/outbox/YYYY-MM-DD-<domain>.md`.
+- **Outreach drafts → Make bridge (primary):** call Make MCP `scenarios_run` with
+  `scenarioId: 6576918` ("Woolet — Outreach Draft Bridge") and
+  `data: {to, subject, html}` — creates a **draft** in the `support@woolet.co`
+  mailbox. One call per approved-quality prospect, built from
+  `link-building/templates/outreach-templates.md` + `link-building/blurbs.md`.
+  **Never call any send module/tool.** Fallbacks in order: Gmail MCP `create_draft`
+  (lands in the personal mailbox — flag this in the report), then files in
+  `link-building/outbox/YYYY-MM-DD-<domain>.md`.
 - **Edit on `tracker/prospects.csv`** — append rows; update `status` /
   `last_action_date` / `follow_ups` when the user reports sends and replies.
 - Optional, only if the user asks: Buffer (announce assets), Airtable (migrate tracker).
