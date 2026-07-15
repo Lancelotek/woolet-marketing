@@ -13,8 +13,18 @@ qualification, pitch angle and outreach draft is derived from what's written her
 - Hero campaign: **Founder Acetate** — limited 100 pairs, Havana, $1 reservation
   waitlist (MailerLite sequence in `waitlist_eng_1usd_email_sequence.md`).
 - Tagline: *"Bespoke handmade eyewear."*
-- Site: `woolet.co` <!-- TODO: confirm production domain before first outreach batch -->
+- Site: `woolet.co` — **live** (verified 2026-07-15)
 - Founder / spokesperson: Marek (marek@jay23.com) <!-- TODO: full name + title + headshot URL for HARO profile -->
+
+> **⚠️ Positioning check (found 2026-07-15, first agent run):** woolet.co/en currently
+> positions the brand as **"Italian Acetate Eyewear Built for Wide Faces"** — one precise
+> **158 mm** size, keyhole bridge, Mazzucchelli acetate, hand-finished in the EU,
+> **Kickstarter coming soon**, socials **@WooletWideFit**. That is a sharper wedge than the
+> generic "bespoke configurator" framing above. Until the founder reconciles the two, the
+> agent leads outreach with the **wide-fit** angle (strongest listicle cluster:
+> "glasses for big heads / wide faces") and keeps bespoke/bio-acetate as secondary angles.
+> Direct wide-fit competitor discovered: **EYESHELLS (eyeshells.com)** — extended-fit
+> specialist, 150–160 mm frame widths. Kraywoods also owns a big-heads guide.
 
 ## What makes Woolet linkable (pitch angles)
 
@@ -39,6 +49,8 @@ qualification, pitch angle and outreach draft is derived from what's written her
 - "Which glasses brands use bio-acetate?"
 - "Best glasses for hard-to-fit faces / custom fit glasses"
 - "Luxury eyewear brands worth the money"
+- **"Best glasses for wide faces / big heads"** ← primary cluster (matches live positioning)
+- "Best sunglasses for big heads 2026"
 
 ## Competitor set (edit freely — 3–5 per run is enough)
 
