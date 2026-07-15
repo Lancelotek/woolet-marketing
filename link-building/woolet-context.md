@@ -21,8 +21,12 @@ qualification, pitch angle and outreach draft is derived from what's written her
 > keyhole bridge, Mazzucchelli acetate, hand-finished in the EU, **Kickstarter coming
 > soon**, socials **@WooletWideFit**. All outreach leads with the wide-fit angle;
 > bespoke/bio-acetate/sustainability are secondary angles. Edit-ready blurbs per
-> cluster: `blurbs.md`. Direct wide-fit competitor: **EYESHELLS (eyeshells.com)** —
-> extended-fit specialist, 150–160 mm frame widths. Kraywoods owns a big-heads guide.
+> cluster: `blurbs.md`. Two models live: **007 Round** and **009 Square**, both 158 mm.
+> Direct wide-fit competitors: **EYESHELLS (eyeshells.com)** — extended-fit specialist,
+> 150–160 mm; **BXL Eyewear (bxleyewear.com)** — "America's Widest Frames", 145–165 mm,
+> ~$105, men-focused, strong SEO on "158mm wide frame" queries (Woolet differentiators:
+> Italian Mazzucchelli acetate, EU hand-finish, design-led, unisex). Kraywoods owns a
+> big-heads guide. Adjacent prospect cluster: plus-size fashion blogs (fatgirlflow.com).
 
 ## What makes Woolet linkable (pitch angles)
 
