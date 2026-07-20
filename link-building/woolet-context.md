@@ -27,6 +27,9 @@ qualification, pitch angle and outreach draft is derived from what's written her
 > ~$105, men-focused, strong SEO on "158mm wide frame" queries (Woolet differentiators:
 > Italian Mazzucchelli acetate, EU hand-finish, design-led, unisex). Kraywoods owns a
 > big-heads guide. Adjacent prospect cluster: plus-size fashion blogs (fatgirlflow.com).
+> New competitor (run 2026-07-20): **WILDZEN** — 158 mm sunglasses, currently the top
+> pick in fresh big-heads roundups (spec-identical width; Woolet counter: Italian
+> Mazzucchelli acetate, EU hand-finish, optical + design-led vs sport-utility).
 
 ## What makes Woolet linkable (pitch angles)
 
