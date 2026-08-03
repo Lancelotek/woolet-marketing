@@ -43,6 +43,13 @@ something to cite.
 - Tone: neutral and reportorial. The page sells nothing; one quiet CTA at the very
   bottom is enough.
 
+## Candidate statistics found by agent (verify at primary source before use)
+
+- ~50% of eyewear purchases are returned or need adjustment due to poor fit, costing
+  the retail eyewear business >$26B/year — surfaced via EyeBuyDirect press release
+  (abnewswire, 2025-09); find and cite the underlying study before publishing.
+  *Perfect headline stat for the wide-fit narrative.* (added 2026-08-03)
+
 ## Build checklist
 
 - [ ] Verify current numbers at primary sources (agent gathers candidates via
