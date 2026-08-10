@@ -50,6 +50,17 @@ something to cite.
   (abnewswire, 2025-09); find and cite the underlying study before publishing.
   *Perfect headline stat for the wide-fit narrative.* (added 2026-08-03)
 
+### Global market size 2026 (added 2026-08-10 — note the wide divergence; cite as a range with all sources)
+
+- Grand View Research: $245.1B (2026) → $463.5B (2033), 9.5% CAGR
+- Coherent Market Insights: $236.8B (2026) → $435.7B (2033), 9.1% CAGR
+- Fortune Business Insights: $192.7B (2026) → $330.8B (2034), 7.0% CAGR
+- Future Market Insights: $199.0B (2026) → $342.6B (2036), 5.5% CAGR
+- Segments: spectacles ~72.1% share (2026); prescription glasses 69.4% (2025);
+  smart glasses projected $12.4B by 2028 (28.3% CAGR)
+- Competing stats pages to outdo (and later T7 targets when their numbers stale):
+  blog.promocode.me.uk/eyewear-industry-statistics · media.market.us/eyewear-statistics
+
 ## Build checklist
 
 - [ ] Verify current numbers at primary sources (agent gathers candidates via
