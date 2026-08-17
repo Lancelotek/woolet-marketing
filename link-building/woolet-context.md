@@ -27,6 +27,12 @@ qualification, pitch angle and outreach draft is derived from what's written her
 > ~$105, men-focused, strong SEO on "158mm wide frame" queries (Woolet differentiators:
 > Italian Mazzucchelli acetate, EU hand-finish, design-led, unisex). Kraywoods owns a
 > big-heads guide. Adjacent prospect cluster: plus-size fashion blogs (fatgirlflow.com).
+> Site update (run 2026-08-17): woolet.co SEO title now "Premium Glasses for Wide Faces
+> & Big Heads (158 mm)" and the site runs its own content marketing — a big-heads
+> listicle at `/en/blog/best-glasses-for-big-heads-2026` already ranks in the niche SERP.
+> Use it as an additional link target for guide/resource pitches. 158-159 mm field is
+> crowding fast: PRIVEL Square XXL (159), SKYOAK XXL (158), SIZE GLASSES retailer
+> (up to 165) joined WILDZEN/BXL/EYESHELLS/Sol Kyst.
 > New competitor (run 2026-07-20): **WILDZEN** — 158 mm sunglasses, currently the top
 > pick in fresh big-heads roundups (spec-identical width; Woolet counter: Italian
 > Mazzucchelli acetate, EU hand-finish, optical + design-led vs sport-utility).
