@@ -1,4 +1,18 @@
-# Woolet Link-Building Playbook — 8 Automated Tactics
+# Woolet Link-Building Playbook
+
+> **Ahrefs connected (2026-09-03, Advanced plan).** Data-driven mode is ON — the agent
+> uses Ahrefs MCP instead of guesswork wherever possible:
+> - **T2 (competitor patterns):** `site-explorer-referring-domains` / `all-backlinks`
+>   on competitors (BXL, WILDZEN, Cubitts, EYESHELLS…) → who actually links to them.
+> - **T3 (broken links):** `site-explorer-broken-backlinks` on competitors → pages
+>   linking to their dead URLs → replacement pitch.
+> - **T6/T8 (reclamation):** woolet.co has **636 ref. domains / 1 919 live links**,
+>   mostly legacy (smart-wallet era). Audit `site-explorer-all-backlinks` for links
+>   hitting 404s → redirect or reclaim. Also `broken-backlinks` on woolet.co itself.
+> - **Qualification:** `public-domain-rating-free` (0 units) for every tracker prospect
+>   → DR-based priority; drop DR<10 unless niche-perfect.
+> - **Budget:** stay under ~50k units/run (limit 1M/mo, shared workspace).
+ — 8 Automated Tactics
 
 Operational spec for the `/link-building` skill. Each tactic defines: trigger queries,
 automation steps (tool-level), qualification, and the outreach template to use.
