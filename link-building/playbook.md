@@ -12,6 +12,14 @@
 > - **Qualification:** `public-domain-rating-free` (0 units) for every tracker prospect
 >   → DR-based priority; drop DR<10 unless niche-perfect.
 > - **Budget:** stay under ~50k units/run (limit 1M/mo, shared workspace).
+> - **Finding (2026-09-03, link intersect BXL x EYESHELLS x WILDZEN, 4.2k units):** dead
+>   end. WILDZEN sells only on Amazon (no domain). bxleyewear.com (DR 0) and eyeshells.com
+>   (DR 6) have ~300 ref. domains each but 95%+ are PBN/link-shop spam (rankboostly.shop,
+>   buybacklinks.agency etc.); intersection = 191 domains, all junk. Only real editorial
+>   link found: mendeserve.com -> EYESHELLS (logged). Do NOT re-run intersect on the
+>   wide-fit set. For T2 use the premium/sustainable set instead (Cubitts, Kraywoods,
+>   Pala, Garrett Leight, Moscot) with `all-backlinks` filtered is_content=true,
+>   is_dofollow=true, domain_rating_source>=30, and look for listicles/guides.
  — 8 Automated Tactics
 
 Operational spec for the `/link-building` skill. Each tactic defines: trigger queries,
