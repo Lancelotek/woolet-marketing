@@ -62,9 +62,15 @@ eyewear"). Polish media are the warmest:
 alone (no outreach needed). Reclamation outreach on top can convert several legacy
 mentions into fresh, contextual eyewear links.
 
-## Action checklist (owner: Marek — hosting/DNS access required)
+## Action checklist (owner: Marek — Cloudflare)
 
-- [ ] www.woolet.co (http+https) → 301 → https://woolet.co/
-- [ ] Wildcard `*.woolet.co` DNS + 301 → https://woolet.co/en
-- [ ] Legacy `/blog/*` and wallet `/products/*` → 301 → live pages; real 404 elsewhere
-- [ ] Tell the agent when done → verification re-crawl via Ahrefs + reclamation drafts
+- [x] www.woolet.co → **301** ✅ (verified 2026-09-04)
+- [x] Wildcard `*.woolet.co` + 301 → `/en` ✅ (verified: de.woolet.co → 301 → /en)
+- [ ] **`shop` DNS record is still grey-cloud (DNS-only)** → traffic bypasses the
+      redirect rule and hits the locked old Shopify store (302 → /password).
+      Fix: orange-cloud the `shop` record — or delete it (wildcard then covers it).
+      This record carries the strongest legacy links (Cult of Mac, TNW, TrendHunter…).
+- [ ] Path rule not active: `/blog/*` and `/products/*` on apex still return 200
+      soft-404. Add rule: hostname eq woolet.co AND (URI path starts_with /blog/ OR
+      starts_with /products/) → 301 https://woolet.co/en
+- [ ] Then: verification re-run + reclamation drafts
