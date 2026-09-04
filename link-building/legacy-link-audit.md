@@ -75,9 +75,17 @@ mentions into fresh, contextual eyewear links.
         `/collections/new-products/products/woolet-2-0-brown` (Blesk/Živě),
         `/products/woolet-leather-brown-slim-wallet`, `/pages/contact`,
         `/blogs/news/*` → best-matching new pages.
-- [ ] Path rule still not active: apex `/blog/*` and `/products/*` return 200
-      soft-404. Add rule: hostname eq woolet.co AND (URI path starts_with /blog/ OR
-      starts_with /products/) → 301 https://woolet.co/en
-      (When the shop opens, consider re-pointing apex `/products/*` → shop instead.)
+- [!] **Finding (2026-09-05): the apex is NOT in our Cloudflare zone.** `@` is an
+      A record to 185.158.133.1 (Lovable, Cloudflare for SaaS) — apex traffic is
+      served by Lovable's zone, so Redirect Rules/Workers in our dashboard only see
+      `www` + subdomains. A "hostname eq woolet.co" rule would be dead on arrival
+      (verified by test: apex paths 200, foo.woolet.co 301s fine).
+- [ ] **Chosen fix (option 1): catch-all in the Lovable router** — `/blog/:slug` →
+      `/en/blog/:slug` (fallback `/en/blog`), `/products/*` → `/en`, unknown routes
+      render not-found with `noindex`. Client-side redirect: Google processes it,
+      slower/weaker than a server 301 — acceptable for ~15 tail links. Prompt sent
+      to Lovable. (Option 2 — taking over `@` with a proxy Worker — parked: too much
+      availability risk pre-Kickstarter for the stakes.)
+      When the shop opens: repoint `/products/*` → shop.woolet.co instead of `/en`.
 - [ ] Then: verification re-run + reclamation drafts (reclamation pitches will link
       to the live shop for product mentions once it opens)
