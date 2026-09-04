@@ -66,11 +66,20 @@ mentions into fresh, contextual eyewear links.
 
 - [x] www.woolet.co → **301** ✅ (verified 2026-09-04)
 - [x] Wildcard `*.woolet.co` + 301 → `/en` ✅ (verified: de.woolet.co → 301 → /en)
-- [ ] **`shop` DNS record is still grey-cloud (DNS-only)** → traffic bypasses the
-      redirect rule and hits the locked old Shopify store (302 → /password).
-      Fix: orange-cloud the `shop` record — or delete it (wildcard then covers it).
-      This record carries the strongest legacy links (Cult of Mac, TNW, TrendHunter…).
-- [ ] Path rule not active: `/blog/*` and `/products/*` on apex still return 200
+- [~] `shop.woolet.co` — **DECISION (2026-09-04): a real store will launch there**
+      (Shopify, currently password-locked while being filled in). Plan:
+      - Interim (optional, recommended): orange-cloud `shop`, exclude it from the
+        wildcard rule, add a dedicated **302** (temporary!) shop → woolet.co/en.
+        Remove this rule at store launch. Do NOT use 301 here.
+      - At launch: remove password + in Shopify admin (Navigation → URL Redirects)
+        redirect the legacy linked paths: `/collections/wallets` (Cult of Mac),
+        `/products/woolet-tracker` (Spider's Web), `/collections/new-products/products/
+        woolet-2-0-brown` (Blesk/Živě), `/products/woolet-leather-brown-slim-wallet`,
+        `/pages/contact`, `/blogs/news/*` → best-matching new pages.
+      - Effect: the strongest legacy links (DR 73–96) flow into the LIVE store.
+- [ ] Path rule still not active: apex `/blog/*` and `/products/*` return 200
       soft-404. Add rule: hostname eq woolet.co AND (URI path starts_with /blog/ OR
       starts_with /products/) → 301 https://woolet.co/en
-- [ ] Then: verification re-run + reclamation drafts
+      (When the shop opens, consider re-pointing apex `/products/*` → shop instead.)
+- [ ] Then: verification re-run + reclamation drafts (reclamation pitches will link
+      to the live shop for product mentions once it opens)
