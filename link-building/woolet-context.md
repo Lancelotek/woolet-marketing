@@ -33,6 +33,10 @@ qualification, pitch angle and outreach draft is derived from what's written her
 > Use it as an additional link target for guide/resource pitches. 158-159 mm field is
 > crowding fast: PRIVEL Square XXL (159), SKYOAK XXL (158), SIZE GLASSES retailer
 > (up to 165) joined WILDZEN/BXL/EYESHELLS/Sol Kyst.
+> Site update (run 2026-09-21): offer now includes **bespoke width options 145-162 mm**
+> alongside the standard 158 mm front (per current site copy) — outreach can now
+> credibly answer "what if 158 isn't my size". X account **@WooletCo** active.
+> Minor competitor intel: WIDE GUYZ (DE, eBay listings, 150 mm) in the wide-fit tail.
 > New competitor (run 2026-07-20): **WILDZEN** — 158 mm sunglasses, currently the top
 > pick in fresh big-heads roundups (spec-identical width; Woolet counter: Italian
 > Mazzucchelli acetate, EU hand-finish, optical + design-led vs sport-utility).
