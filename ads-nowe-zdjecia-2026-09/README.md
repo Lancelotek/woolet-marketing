@@ -18,3 +18,6 @@ Zrodlo: 6 selfie (studio, oprawki kwadratowe, czarne). Brand: #CAA449 / #080807 
 ## Do potwierdzenia
 - Czy oprawki na zdjeciach to Woolet 009 (brak 3 nitow na zawiasie)?
 - Szerokosc twarzy z FitLens do podpisu w shopie.
+
+## Pinterest
+- P1_pinterest_2x3_glasses-for-wide-faces (1000x1500) -> https://woolet.co/en/collections/wide-face-glasses
