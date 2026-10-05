@@ -10,7 +10,7 @@ Fill `{{...}}` before sending — values marked TBD need founder input once, the
 - Material: Mazzucchelli 1849 acetate (Italy); hand-finished in the EU.
 - Launching on Kickstarter ({{launch_date_TBD}}); reservations open at woolet.co.
 - Price: {{price_TBD}} · Rx-ready: {{rx_support_TBD}} · Sun versions: {{sun_TBD}}
-- Founder: {{founder_full_name_TBD}}, contact: marek@jay23.com
+- Founder: Marek Ciesla (confirmed on woolet.co/en/about), contact: marek@jay23.com / support@woolet.co
 - Press assets (photos, fit specs): {{press_kit_url_TBD}}
 
 ## Blurb A — "glasses for big heads / wide faces" listicles (~70 words)

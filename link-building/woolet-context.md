@@ -14,7 +14,7 @@ qualification, pitch angle and outreach draft is derived from what's written her
   waitlist (MailerLite sequence in `waitlist_eng_1usd_email_sequence.md`).
 - Tagline: *"Bespoke handmade eyewear."*
 - Site: `woolet.co` — **live** (verified 2026-07-15)
-- Founder / spokesperson: Marek (marek@jay23.com) <!-- TODO: full name + title + headshot URL for HARO profile -->
+- Founder / spokesperson: **Marek Ciesla, founder** (publicly confirmed on woolet.co/en/about; contact marek@jay23.com / support@woolet.co)
 
 > **✅ Positioning CONFIRMED by founder (2026-07-15):** primary axis is
 > **"Italian Acetate Eyewear Built for Wide Faces"** — one precise **158 mm** size,
@@ -33,6 +33,11 @@ qualification, pitch angle and outreach draft is derived from what's written her
 > Use it as an additional link target for guide/resource pitches. 158-159 mm field is
 > crowding fast: PRIVEL Square XXL (159), SKYOAK XXL (158), SIZE GLASSES retailer
 > (up to 165) joined WILDZEN/BXL/EYESHELLS/Sol Kyst.
+> Site update (run 2026-10-05): **/en/about tells the full comeback story publicly**
+> (2015 smart wallet, $332K Kickstarter, discontinued 2016; eyewear = second chapter,
+> same founder Marek Ciesla). Use /en/about as the LINK TARGET for all reclamation
+> pitches — it IS the story we pitch. Bespoke range is 145-172 mm (wider than noted
+> before); Signature: 158 mm front / 150 mm temples.
 > Site update (run 2026-09-21): offer now includes **bespoke width options 145-162 mm**
 > alongside the standard 158 mm front (per current site copy) — outreach can now
 > credibly answer "what if 158 isn't my size". X account **@WooletCo** active.
