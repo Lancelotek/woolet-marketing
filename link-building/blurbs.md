@@ -9,7 +9,7 @@ Fill `{{...}}` before sending — values marked TBD need founder input once, the
 - One precise wide-fit size: **158 mm** frame width, keyhole bridge, longer temples.
 - Material: Mazzucchelli 1849 acetate (Italy); hand-finished in the EU.
 - Launching on Kickstarter ({{launch_date_TBD}}); reservations open at woolet.co.
-- Price: {{price_TBD}} · Rx-ready: {{rx_support_TBD}} · Sun versions: {{sun_TBD}}
+- Price: pre-order $114 (40% off); Bespoke $480 incl. Rx lenses ($299 for Kickstarter backers) · Rx-ready: yes (bespoke incl. prescription lenses) · Sun versions: {{sun_TBD}}
 - Founder: Marek Ciesla (confirmed on woolet.co/en/about), contact: marek@jay23.com / support@woolet.co
 - Press assets (photos, fit specs): {{press_kit_url_TBD}}
 

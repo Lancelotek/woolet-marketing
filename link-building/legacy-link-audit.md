@@ -81,7 +81,9 @@ mentions into fresh, contextual eyewear links.
       `www` + subdomains. A "hostname eq woolet.co" rule would be dead on arrival
       (verified by test: apex paths 200, foo.woolet.co 301s fine).
 - [ ] **Chosen fix (option 1): catch-all in the Lovable router** — `/blog/:slug` →
-      `/en/blog/:slug` (fallback `/en/blog`), `/products/*` → `/en`, unknown routes
+      `/en/blog/:slug` (fallback `/en/blog`), `/products/*` AND `/collections/*` → `/en`
+      (2026-10-12: Google still indexes legacy `/collections/wirelessly-charged` on the
+      apex — add /collections/* to the catch-all spec), unknown routes
       render not-found with `noindex`. Client-side redirect: Google processes it,
       slower/weaker than a server 301 — acceptable for ~15 tail links. Prompt sent
       to Lovable. (Option 2 — taking over `@` with a proxy Worker — parked: too much
