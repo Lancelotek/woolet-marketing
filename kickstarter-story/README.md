@@ -10,3 +10,4 @@ Zrodla: src/cards.html i src/cta.html, render: node src/render.js (Playwright). 
 Kolejnosc story: wideo, hero, CTA, PRODUCT, CTA, THE PROBLEM, CTA, KING, MATERIALS, CTA, WORKSTATION/FITLENS, TEAM...FAQ, CTA.
 
 - ks-11-proof-greg - opinia testera Grega (zgoda 29.09.2026), w story przed CTA sekcji THE PROBLEM; zrodlo src/greg.html, render node src/rg.js
+- ks-07-face-comparison-greg - porownanie Standard vs Woolet 158 mm na Gregu; od 16.10.2026 zastepuje ks-07-face-comparison w story
