@@ -8,3 +8,5 @@ Odtworzone grafiki story Woolet na Kickstarterze + CTA. Szerokosc 1360 px (2x ko
 Zrodla: src/cards.html i src/cta.html, render: node src/render.js (Playwright). Kolory i fonty wg woolet-brand-book-colors.md.
 
 Kolejnosc story: wideo, hero, CTA, PRODUCT, CTA, THE PROBLEM, CTA, KING, MATERIALS, CTA, WORKSTATION/FITLENS, TEAM...FAQ, CTA.
+
+- ks-11-proof-greg - opinia testera Grega (zgoda 29.09.2026), w story przed CTA sekcji THE PROBLEM; zrodlo src/greg.html, render node src/rg.js
